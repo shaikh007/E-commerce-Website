@@ -585,6 +585,7 @@ footer i {
     }
     #close {
         position: absolute;
+        display: initial;
         top: 30px;
         left: 30px;
         color: #222;
