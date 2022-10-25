@@ -1142,6 +1142,22 @@ footer i {
     footer .copyright {
         text-align: center;
     }
+    /* single product */
+    #pro-details {
+        display: flex;
+        flex-direction: column;
+    }
+    #pro-details .single-product-img {
+        width: 100%;
+        margin-right: 0px;
+    }
+    #pro-details .single-product-details {
+        width: 100%;
+    }
+    #pro-details .single-product-details span {
+        line-height: 25px;
+        font-size: 16px;
+    }
     /* Blog Page */
     #blog {
         padding: 100px 20px 0 20px;
@@ -1159,7 +1175,7 @@ footer i {
     #blog .blog-details {
         width: 100%;
     }
-    /* About page */
+    /* about section */
     #about-head {
         flex-direction: column;
     }
